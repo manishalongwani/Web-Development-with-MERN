@@ -1,0 +1,38 @@
+<!-- This is a comment -->
+<!-- HTML-> Hyper Text Markup Language -->
+<!DOCTYPE html>
+<!--To tell the brower that we are using HTML 5-->
+<html>
+
+<head>
+    <title>Day 1</title>
+</head>
+
+<body style="background-color: brown; font-family: 'Times new roman';">
+    <h1 style="font-size: 300%;">This is h1</h1>
+    <h2>This is h2</h2>
+    <h3>This is h3</h3>
+    <h4>This is h4</h4>
+    <h5>This is h5</h5>
+    <h6>This is h6</h6>
+
+    <p style="font-weight: bold;">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi fugit
+        itaque tempora repellat sed enim dignissimos quibusdam sapiente ut
+        facilis. Corrupti commodi omnis suscipit eveniet nobis veritatis molestias
+        quo architecto.
+    </p>
+
+    <a href="https://stackoverflow.co/teams/" style="color:beige;" target="_blank">Discover Themes</a>
+    <br>
+    <br>
+    <img alt="Dog Image" src="https://img.freepik.com/free-photo/isolated-happy-smiling-dog-white-background-portrait-4_1562-693.jpg" height="200px" width="400px" />
+</body>
+</html>
+
+<!-- this is 
+multiline 
+comment -->
+
+
+
