@@ -1,0 +1,30 @@
+body{
+    /*background-color: pink;*/
+    background-image: url("./dog.avif");
+    font-size: 30px;;
+    color: brown;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    background-position: center;
+    background-repeat: repeat-y;
+}
+
+div{
+    opacity: 1;
+    border-width: 2px;
+    border-color:red;
+    border-style: solid;
+    border-left-width: 3px;
+    border-top-style: dashed;
+    border-right-style: groove;
+    border-radius: 50px;    
+
+    margin-top: auto;
+    padding: auto;
+}
+
+div:hover{
+    background-color:red ;
+    color:white;
+}
