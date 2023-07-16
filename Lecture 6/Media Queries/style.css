@@ -1,0 +1,135 @@
+body{
+    /* text-align: justify  ; */
+    /* background-image: linear-gradient(yellow,green); */
+    background-repeat: space;
+    /*background-image: linear-gradient(to right, red, blue);*/
+    background-image: linear-gradient(90deg, red, orangered);
+}
+
+p{
+    outline-color: black;
+    /* text-decoration: underline;*/
+    /* text-decoration: line-through; */
+    /* text-transform: capitalize;*/
+    /* text-transform: lowercase;*/
+    /*text-indent: 20px;*/
+    /* letter-spacing: 3px ; */
+    /* line-height: 1.8; */
+    /* word-spacing: 20px; */
+
+    text-shadow: 1px 1px 1px black;
+    /* direction: rtl;
+    unicode-bidi: bidi-override; */
+    /* z-index: -1; */
+
+}
+
+p.solid{
+    outline-style: solid;
+    /* outline-width: 10px; */
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#one{
+    color: red;
+}
+
+#two{
+    color: pink;
+}
+
+h1{
+    text-shadow: 1px 1px  red;
+    /* font-family:'tangerine',serif;
+    font-style: italic; */
+
+    /* font: 20px Arial, sans-serif; */
+    /* font: italic bold Arial; */
+}
+
+/* a:link{
+    color: black;
+}
+
+a:visited{
+    color:orangered;
+}
+
+a:hover{
+    background-color: pink;
+}
+
+a:active{
+    text-decoration: underline;
+} */
+
+a:link, a:visited{
+    background-color: purple;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active{
+    background-color: blueviolet;
+}
+
+/* div{
+    background-color: grey;
+    width: 200px;
+    height: 80px;
+     overflow: scroll; 
+     overflow-x: hidden;
+    overflow-y: hidden; 
+    overflow: auto;
+    float: left;
+} */
+
+div.imageGallery{
+    margin: 5px;
+    float: left;
+    border: 1px solid black;
+    width: 300px;
+}
+
+div.description{
+    padding: 5px;
+    text-align: center;
+}
+#back{
+    background-image: url("https://hips.hearstapps.com/hmg-prod/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=0.752xw:1.00xh;0.175xw,0&resize=1200:*");
+    display: block;
+    z-index: 1;
+}
+
+#borderRadius{
+    border:2px solid black;
+    border-radius: 10px 30px 10px 30px;
+    padding:5px;
+    box-shadow: 10px 10px 5px gray;
+    display: grid;
+    display: none;
+        /*visibility:hidden;*/
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #borderRadius{
+        background-color: brown;
+        /*float: right;
+        display: inline;
+        width:50%;*/
+    }  
+}
+
+@media screen and (max-width: 900px) and (min-width:600px){
+    body{
+        background-color: green !important;
+    }
+}

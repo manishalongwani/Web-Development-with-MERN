@@ -1,0 +1,29 @@
+.flex-container
+{
+    display: flex;
+    background-color: blue;
+    flex-wrap: wrap;
+    /* flex-direction: column;
+    
+    justify-content: center;
+    align-content: center;
+ */
+}
+
+.flex-container > div{
+    padding: 20px;
+    margin: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.flex-container > div:hover{
+    background-color: yellow;
+    color: black;
+}
+
+@media screen and (max-width: 600px){
+    .flex-container{
+        flex-direction: column;
+    }
+}
